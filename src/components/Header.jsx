@@ -2,14 +2,14 @@
 import { NavLink } from "react-router-dom";
 import logo from "../assets/netflix.png";
 import Input from "./Input";
-
+import netflix from "../assets/netflix-bg2.jpg"
 
 const Header = () => {
  
 
   return (
     <div>
-      <main className="bg-[url(/home/mercy/Documents/Code/Netflix-clone/src/assets/netflix-bg2.jpg)] bg-no-repeat bg-cover h-screen">
+      <main style={{backgroundImage:`url(${netflix})`}} className="bg-no-repeat bg-cover h-screen">
         <div className="bg-gradient-to-b from-black via-transparent to-black h-screen">
           <nav className=" flex justify-between items-center m-auto ">
             <div className="ml-6">
